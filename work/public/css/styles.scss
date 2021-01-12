@@ -1,0 +1,29 @@
+body {
+  font-family: Arial, sans-serif;
+  width: 230px;
+  margin: 32px auto;
+  user-select: none;
+
+  h2 {
+    font-size: 24px;
+    margin: 0 0 16px;
+  }
+  p {
+    margin: 5px auto;
+  }
+  input[type="text"],
+  input[type="email"],
+  input[type="password"] {
+    width: 90%;
+    padding: 4px;
+    box-sizing: border-box;
+    margin-bottom: 2px;
+    border-radius: 10px;
+  }
+  input[type="submit"] {
+    margin: 15px auto;
+  }
+  .err {
+    color: red;
+  }
+}
